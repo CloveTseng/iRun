@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iRun - login</title>
-    <script type="module" crossorigin src="/iRun/assets/login\\remind-d2926433.js"></script>
-    <link rel="modulepreload" crossorigin href="/iRun/assets/main-d7a631d8.js">
-    <link rel="modulepreload" crossorigin href="/iRun/assets/picker.esm-3f50a8c7.js">
-    <link rel="stylesheet" href="/iRun/assets/main-fa5ed5d5.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pickerjs@1.2.1/dist/picker.min.css">
+    <script type="module" crossorigin src="/iRun/assets/main-99c85dba.js"></script>
+    <link rel="stylesheet" href="/iRun/assets/main-4a6b7e2b.css">
   </head>
   <body>
     <div class="container px-4 login-100vh">
@@ -23,11 +22,8 @@
             <p class="fs-7 fw-regular text-secondary-800 lh-base">每天花15分鐘就能有效燃脂</p>
             <img src="/iRun/assets/9359ab6fcd36b1c5-d495d41a.png" alt="ring" class="ring">
             <div class="time-picker-wrapper">
-  <div class="js-inline-picker"></div>
-  <input type="text" id="timer" class="d-none">
-</div>
-
-
+                <div class="js-inline-picker"></div>
+            </div>
         </div>
         <div class="d-flex w-100">
             <a href="coach-traits.html" class="login-a p-6 me-4"><h6 class="text-secondary-300 fw-bold lh-base">返回</h6></a>
@@ -35,7 +31,15 @@
         </div>
     </div>
 </div>    
+    <script src="https://cdn.jsdelivr.net/npm/pickerjs@1.2.1/dist/picker.min.js"></script>
     <script>
+      new Picker(document.querySelector('.js-inline-picker'), {
+        container: '.time-picker-wrapper',
+        controls: false,
+        format: 'mm:ss',
+        inline: true,
+      });
+
       const timeline = [
   { 1: true },
   { 2: true },
