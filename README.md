@@ -1,16 +1,12 @@
-# 🏃‍♀️ iRun - 六角 x AAPD 設計前端產品研發營（第 24 組）
+# 🏃‍♀️ iRun (團隊專案)
 [![iRun](https://firebasestorage.googleapis.com/v0/b/mobaocoffee.appspot.com/o/cover.png?alt=media&token=dd3a3212-687e-439f-b52b-cae057c444b7)](https://clovetseng.github.io/iRun/)*點擊圖片可連結至 Demo 頁*
 
 專案期間：2024/09 ~ 2024/10
 
 ## 專案簡介：
-此專案為六角學院前端學員與 AAPD 設計學員跨領域協作，純手刻切版完成。
-
-設計團隊透過使用者研究發現：
-- 多數健身 App 缺乏個人化與陪伴感，使用者易半途而廢
-- 缺乏引導與互動，使用者難以養成運動習慣
-
-因此，我們打造一款由 AI 教練陪伴的健身 App Prototype，主打「陪伴感」與「入門友善」。
+此專案是與 UI / UX 設計團隊協作，純手刻切版。
+目的為打造一款由 AI 教練陪伴的健身 App Prototype，主打「陪
+伴感」與「入門友善」。
 
 ## 專案使用技術與工具：
  `HTML`、`SCSS`、`JavaScript`、`Bootstrap`  
